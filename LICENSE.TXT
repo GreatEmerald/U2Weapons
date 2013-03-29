@@ -1,0 +1,49 @@
+The licensing of this project is somewhat complex due to the nature of it. As a 
+mod, the terms of the Unreal Tournament 2004 EULA apply to it first and 
+foremost, overriding any local licenses used by individual mods if they are in 
+conflict. This creates an issue, since even though the UT2004 EULA is pretty 
+lax, it does include a clause that forbids any commercial exploitation of any 
+mods without explicit consent from Epic Games. This makes it so that all mods 
+by definition cannot be Free Software as defined by the Free Software 
+Foundation.
+
+However, it is my intention to release the code under a copy-left license, and 
+one designed to address source code. Therefore I hereby license all the code in 
+this project under the terms of the GNU Lesser General Public License version 
+3, or any later version, with the exception that the code cannot be 
+commercially exploited in any way without prior consent of Epic Games.
+
+This effectively means that the license used here is not a Free Software 
+License as far as external programs go. However, in terms of other mods for 
+Unreal Tournament 2004, there is very little difference, as they are also bound 
+by the UT2004 EULA. All other rights granted by the LGPL apply to this software 
+and its derivatives, as written in the body of the license.
+
+See the included file, LGPL3.TXT, for the terms of the GNU Lesser General 
+Public License version 3, and GPL3.TXT, for the terms of the GNU General Public 
+License version 3.
+
+This package also contains some other non-code resources, such as textures. 
+They are licensed under the terms of the Unreal Tournament 2004 EULA, 
+specifically section 11.(c).
+
+In order to have a fully-working version of the mod, you also need to use 
+resources from the UTXMP project. These resources also fall under either the 
+UT2004 EULA itself, or, if copyright by Free Monkey Interactive, under the 
+license that UTXMP is distributed.
+
+The mod also uses code from the Unreal Tournament Expanded Multiplayer (UTXMP) 
+project. Special terms may or may not apply to files that use such code. 
+Unfortunately, Free Monkey Interactive did not specify a specific license for 
+its code, and is now defunct. Much of it falls under the UT2004 EULA, however.
+
+Other non-code text resources, such as this text or the README.TXT file, unless 
+stated otherwise, are licensed under the GNU All-Permissive License. Its text 
+follows:
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.  This file is offered as-is,
+without any warranty.
+
+Copyright (c) 2008-2011, 2013 Dainius "GreatEmerald" Masiliūnas

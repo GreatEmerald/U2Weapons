@@ -1,0 +1,27 @@
+====INSTALLATION INSTRUCTIONS====
+
+This is the Full Install package. If you like this, you should really try out 
+UTXMP, it's a great game that can be integrated straight into UT2004 with some 
+pathing. Or you can try U2XMP for better graphics and more players.
+
+Anyway, since RC2 Unreal II/XMP Weapons for UT2004 no longer requires you to 
+have UTXMP, and the installation is quite generic. All you need to do is either 
+extract the RAR file to your UT2004 folder, or manually move files (for example, 
+if you have the folder named System in this archive, move all the contents to 
+your UT2004/System folder). Note that if you wish to save space and have UTXMP 
+installed and pathed to your main UT2004, you can extract the archive to the 
+UTXMP folder instead. Finally, if you wish to create an Unreal II weapons 
+server, you have to add the package "U2Weapons" to ServerPackages: Open the 
+UT2004/System/UT2004.ini file again. Find the [Engine.GameEngine] header, and 
+add these lines below the "ServerPackages=OnslaughtFull" line:
+
+ServerPackages=GEUtilities
+ServerPackages=ShieldReward
+ServerPackages=U2Stations
+ServerPackages=U2Weapons
+
+Save the UT2004.ini file.
+
+The installation is complete. To get the weapons, enable the Unreal II/XMP 
+Weapons mutator from the game's Mutator menu, to get the stations, enable Unreal 
+II Power Stations, and to get the dropped shields, enable Shield Reward.
